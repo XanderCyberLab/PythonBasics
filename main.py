@@ -1,0 +1,4 @@
+import rockpaperandscissors
+
+print(rockpaperandscissors.random_num)
+print(rockpaperandscissors.random_float)
