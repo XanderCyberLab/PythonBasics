@@ -29,12 +29,9 @@ def get_player_choice():
 def get_computer_choice():
     ### Computer Chooses
     computer_choices = ['rock', 'paper', 'scissors']
-    computer = random.choice(computer_choices)
+    computer = random.choice(computer_choices)    
     
     return computer
-
-
-
 
 ### Notes
 # random_num = random.randint(1,10)
