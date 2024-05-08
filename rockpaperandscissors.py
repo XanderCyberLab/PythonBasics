@@ -65,7 +65,7 @@ def get_computer_choice():
     computer = random.choice(computer_choices)    
     
     if computer == 'rock':
-        print('''You Selected Rock!\n
+        print('''Computer Selected Rock!\n
             _______
         ---'   ____)
              (_____)
@@ -74,7 +74,7 @@ def get_computer_choice():
         ---.__(___)
         ''')
     elif computer == 'paper':
-        print('''You Selected Paper!\n
+        print('''Computer Selected Paper!\n
             _______
         ---'   ____)____
                   ______)
@@ -83,7 +83,7 @@ def get_computer_choice():
         ---.__________)
         ''')
     else:
-        print('''You Selected Scissors!\n
+        print('''Computer Selected Scissors!\n
             _______
         ---'   ____)____
                   ______)
@@ -99,8 +99,6 @@ if __name__ == "__main__":
     computer = get_computer_choice()
     result = winner(player, computer)
 
-    print("You choose " + player + "!")
-    print("Computer choose " + computer + "!")
     print(result)
     
 
