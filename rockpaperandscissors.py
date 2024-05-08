@@ -29,8 +29,8 @@ def get_player_choice():
         print("Invalid selection, Please type Rock, Paper or Scissors")
         player = input('Type your choice! Rock, Paper or Scissors! ').lower()
 
-        if player == 'rock':
-           print('''You Selected Rock!\n
+    if player == 'rock':
+        print('''You Selected Rock!\n
             _______
         ---'   ____)
              (_____)
@@ -38,8 +38,8 @@ def get_player_choice():
              (____)
         ---.__(___)
         ''')
-        elif player == 'paper':
-            print('''You Selected Paper!\n
+    elif player == 'paper':
+        print('''You Selected Paper!\n
             _______
         ---'   ____)____
                   ______)
@@ -47,8 +47,8 @@ def get_player_choice():
                 _______)
         ---.__________)
         ''')
-        else:
-            print('''You Selected Scissors!\n
+    else:
+        print('''You Selected Scissors!\n
             _______
         ---'   ____)____
                   ______)
